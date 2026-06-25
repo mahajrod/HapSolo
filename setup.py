@@ -7,7 +7,7 @@ dependencies = ["pandas>=1.0", "tqdm>=4.0"]
 
 setup(name='hapsolo',
       version='0.1',
-      #packages=find_packages(),
+      packages=[],
       author='ESB-AI-Lab',
       install_requires=dependencies,
       scripts=["hapsolo.py", "hapsolo_cli.py", "preprocessfasta.py", "search_orthologs.py"],
